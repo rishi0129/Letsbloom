@@ -8,7 +8,7 @@
 
 1. Clone this repository
    ```
-   python -m venv env
+   git clone https://github.com/rishi0129/Letsbloom.git
    ```
 2. Create a virtual env
    ```

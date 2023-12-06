@@ -7,6 +7,9 @@
 ## Setup:
 
 1. Clone this repository
+   ```
+   python -m venv env
+   ```
 2. Create a virtual env
    ```
    python -m venv env

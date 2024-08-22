@@ -77,8 +77,15 @@ WSGI_APPLICATION = 'letsbloom.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'bookstore',
+        'USER': 'bookstore',
+        'PASSWORD': 'Singh@1337',
+        'HOST': '35.222.18.238',
+        'PORT': '5432',
+        # 'OPTIONS': {
+        #     'sslmode': 'require',
+        # },
     }
 }
 

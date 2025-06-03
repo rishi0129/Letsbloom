@@ -1,0 +1,436 @@
+manageEngine.Devices
+[
+        {
+            "device_id": 9007199254741000,
+            "os_version": "8.0.0",
+            "is_lost_mode_enabled": false,
+            "owned_by": 2,
+            "is_removed": false,
+            "product_name": "samsung",
+            "device_name": "admin_SM-G935F",
+            "platform_type": "android",
+            "platform_type_id": 2,
+            "udid": "f8c4071d394ef48e",
+            "serial_number": "2321bkbkqgidga1",
+            "model": "SM-G935F",
+            "user": {
+                "user_name": "admin",
+                "user_id": 9007199254741000,
+                "user_email": "admin@zylker.com"
+            },
+            "imei": 357327071694307,
+            "summary": {
+                "profile_count": 5,
+                "app_count": 10,
+                "doc_count": 1,
+                "group_count": 2
+            }
+        }
+ ]
+
+manageEngine.Users
+[
+{
+            "email_address": "email_address@zylker.com",
+            "user_id": 9007199254741000,
+            "name": "admin",
+            "phone_number": "+91-9876****99",
+            "domain": "mdm"
+}
+]
+
+manageEngine.BlacklistedApps
+[{
+            "identifier": "com.manageengine.mdm.android",
+            "appgroupid": 123123213,
+            "platform": 1,
+            "appname": "Manageengine MDM"
+}]
+
+
+manageEngine.Profiles
+[{
+    "warranty_number": "SJSU64728372",
+    "cellular_technology": 1,
+    "used_device_space": 12.86491,
+    "is_ios_native_app_registered": false,
+    "warranty_expiration_date": 1530057600000,
+    "purchase_order_number": "SR2Ik56779",
+    "model": "SM-G935F",
+    "available_external_capacity": 20.47,
+    "available_ram_memory": 983,
+    "owned_by": 2,
+    "warranty_type": "WithService",
+    "modem_firmware_version": "10.10.00",
+    "purchase_price": 65000,
+    "purchase_date": 1527984000000,
+    "managed_status": 2,
+    "network_usage": {
+        "outgoing_network_usage": 0,
+        "incoming_wifi_usage": 0,
+        "device_id": 9007199254741000,
+        "outgoing_wifi_usage": 0,
+        "incoming_network_usage": 0
+    },
+    "sims": [
+        {
+            "subscriber_carrier_network": "--",
+            "iccid": 8991400912981718000,
+            "is_roaming": true,
+            "sim_id": 9508000000013204,
+            "current_mnc": 40,
+            "subscriber_mnc": 40,
+            "current_carrier_network": "--",
+            "resource_id": 9508000000013120,
+            "imei": 357327071694307,
+            "subscriber_mcc": "in",
+            "current_mcc": "in"
+        }
+    ],
+    "external_capacity": 29.82,
+    "knox_details": {
+        "container_state": -1,
+        "container_remarks": null,
+        "container_status": 20004,
+        "container_last_updated_time": -1,
+        "knox_version": 2
+    },
+    "asset_owner": "Sysadmin",
+    "apn_password": null,
+    "battery_level": 22,
+    "is_itunes_account_active": true,
+    "is_supervised": false,
+    "serial_number": "2321bkbkqgidga1",
+    "last_cloud_backup_date": -1,
+    "agent_version_code": -1,
+    "meid": "SM-G935F",
+    "is_dnd_in_effect": false,
+    "office": "North Plaza,CA",
+    "apn_username": "zylker",
+    "model_name": "hero2ltexx",
+    "registered_time": 1540655566627,
+    "purchase_type": "Reseller",
+    "asset_tag": "TestDevice",
+    "is_activation_lock_enabled": true,
+    "available_device_capacity": 13.200405,
+    "product_name": "samsung",
+    "agent_type": 1,
+    "is_device_locator_enabled": true,
+    "device_capacity": 24.81,
+    "added_time": 1523370360750,
+    "eas_device_identifier": "QEGJKADSR14D1AEAA4F29FM0IC",
+    "description": "Belong to Zoho Corp",
+    "is_lost_mode_enabled": false,
+    "network": {
+        "outgoing_network_usage": 0,
+        "incoming_wifi_usage": 0,
+        "resource_id": 9508000000013120,
+        "outgoing_wifi_usage": 0,
+        "incoming_network_usage": 0
+    },
+    "device_name": "admin_SM-G935F",
+    "security": {
+        "passcode_complaint": false,
+        "external_storage_encryption": -1,
+        "storage_encryption": false,
+        "hardware_encryption_caps": -1,
+        "passcode_complaint_profiles": true,
+        "device_rooted": false,
+        "passcode_present": false
+    },
+    "udid": "f8c4071d394ef48e",
+    "summary": {
+        "profile_count": 5,
+        "app_count": 10,
+        "doc_count": 1,
+        "group_count": 2
+    },
+    "os": {
+        "platform_type": "android",
+        "build_version": "NRD90M",
+        "os_version": "8.0.0",
+        "resource_id": 9508000000013120,
+        "serial_number": "2321bkbkqgidga1"
+    },
+    "is_cloud_backup_enabled": false,
+    "model_type": 1,
+    "model_id": 9007199254740996,
+    "total_ram_memory": 3533,
+    "used_external_space": 25.38,
+    "remarks": "The app is not compatible for this platform",
+    "unregistered_time": -1
+}]
+
+
+
+manageEngine.DeviceApps
+[{
+    "installed_apps": [
+        {
+            "release_label_details": {
+                "release_label_name": "Production",
+                "release_label_id": 90086789628394940
+            },
+            "app_version": "0.1.187945513",
+            "platform_type": "android",
+            "identifier": "com.google.android.apps.googleassistant",
+            "app_name": "Red Ball 4 (Ad Supported)",
+            "app_id": 9007199254740996,
+            "app_version_code": 187945513
+        }
+    ],
+    "release_label_details": {
+        "release_label_name": "Production",
+        "release_label_id": 90086789628394940
+    },
+    "apps": [
+        {
+            "app_version": "0.1.187945513",
+            "app_version_code": 187945513,
+            "platform_type": "android",
+            "identifier": "com.google.android.apps.googleassistant",
+            "app_name": "Red Ball 4 (Ad Supported)",
+            "app_id": 9007199254740996,
+            "added_time": 1523370360750,
+            "modified_time": 1231231231,
+            "platform": 2,
+            "icon": "https://zylker.com/icon.png"
+        }
+    ]
+}]
+
+
+manageEngine.DeviceActions
+[{
+    "knox_actions": [
+        {
+            "is_enabled": true,
+            "localized_name": "Create container",
+            "name": "zylker iPhone",
+            "localized_action_info": "--",
+            "action_info": "--"
+        }
+    ],
+    "actions": [
+        {
+            "is_enabled": true,
+            "localized_name": "Create container",
+            "name": "zylker iPhone",
+            "localized_action_info": "--",
+            "status_code": 2,
+            "action_info": "--",
+            "localized_status_description": "Command Initiated",
+            "status_description": "Command Success"
+        }
+    ]
+}]
+
+manageEngine.IOSPasscodePolicy
+[
+  {
+    "payload_id": "169405000000106617",
+    "force_passcode": true,
+    "max_grace_period": "0",
+    "max_passcode_age": "150",
+    "min_complex_chars": "2",
+    "restrict_passcode": false,
+    "allow_simple_value": false,
+    "auto_lock_idle_for": "3",
+    "max_failed_attempts": "9",
+    "min_passcode_length": "5",
+    "require_alphanumeric": true,
+    "no_of_passcode_maintained": "50"
+  }
+]
+
+manageEngine.IOSRestrictionsPolicy
+[{
+  "allow_airprint_credential_storage": true,
+  "allow_explicit_content": true,
+  "show_control_center": true,
+  "show_today_view": true,
+  "allow_classroom_remoteview": true,
+  "allow_account_modification": true,
+  "allow_assistant_user_content": true,
+  "allow_managed_book_sync": true,
+  "allow_airprint": true,
+  "allow_music_service": true,
+  "allow_untrusted_tls_prompt": true,
+  "safari_allow_popups": true,
+  "allow_spotlight_result": true,
+  "allow_passbook_when_locked": true,
+  "force_watch_wrist_detect": true,
+  "allow_use_of_ibookstore": true,
+  "allow_cloud_document_sync": true,
+  "allow_touch_id": true,
+  "is_rating_enabled": true,
+  "country_code": "us",
+  "movies_rating_value": "1000",
+  "tv_shows_rating_value": 1000,
+  "apps_rating_value": 1000,
+  "allow_ibookstore_erotica_media": true,
+  "allow_bluetooth_modification": true,
+  "allow_assistant_when_locked": true,
+  "force_istore_pwd_entry": true,
+  "allow_app_installation": true,
+  "allow_erase_content_settings": true,
+  "allow_airprint_ibeacon_discovery": true,
+  "allow_auto_app_download": true,
+  "allow_paired_watch": true,
+  "allow_vpn_creation": true,
+  "allow_predictive_keyboard": true,
+  "allow_app_removal": true,
+  "allow_activity_continuation": true,
+  "allow_news": true,
+  "allow_safari": true,
+  "allow_radio_service": true,
+  "allow_managed_app_trust": true,
+  "allow_spellcheck": true,
+  "safari_accept_cookies": 2,
+  "force_classroom_appdevicelock": true,
+  "allow_itunes": true,
+  "allow_managed_app_cloud_sync": true,
+  "allow_assistant": true,
+  "allow_find_my_friends_mod": true,
+  "safari_allow_javascript": true,
+  "force_limited_ad_tracking": true,
+  "force_airplay_incoming_pwd": true,
+  "allow_use_of_youtube": true,
+  "force_encrypted_backup": true,
+  "allow_voice_dialing": true,
+  "allow_dictionary_lookup": true,
+  "force_assist_profanity_filter": true,
+  "force_airprint_tls": true,
+  "allow_dictation": true,
+  "force_classroom_remoteview": true,
+  "allow_face_time": true,
+  "allow_enabling_restriction": true,
+  "allow_ota_pki_updates": true,
+  "allow_multiplayer_gaming": true,
+  "allow_diagnostic_submission": true,
+  "allow_diag_sub_modification": true,
+  "allow_add_game_center_friend": true,
+  "allow_shared_stream": true,
+  "allow_sync_while_roaming": true,
+  "allow_open_doc_in_managed": true,
+  "allow_photo_stream": true,
+  "safari_force_fraud_warning": true,
+  "show_notification_center": true,
+  "allow_airdrop": true,
+  "allow_game_center": true,
+  "allow_keyboard_shortcut": true,
+  "allow_modifi_passcode": true,
+  "allow_profile_installation": true,
+  "allow_modify_touch_id": true,
+  "allow_cloud_keychain_sync": true,
+  "allow_open_doc_in_unmanaged": true,
+  "allow_inapp_purchase": true,
+  "allow_auto_correction": true,
+  "safari_allow_autofill": true,
+  "allow_app_cellular_data": true,
+  "allow_imessage": true,
+  "allow_podcasts": true,
+  "allow_cloud_backup": true,
+  "allow_cloud_photo_lib": true,
+  "force_wifi_whitelisting": true,
+  "force_airplay_outgoing_pwd": true,
+  "allow_use_of_camera": true,
+  "allow_modifi_device_name": true,
+  "allow_managed_book_backup": true,
+  "force_classroom_auto_join": true,
+  "allow_screen_capture": true,
+  "force_airdrop_unmanaged": true,
+  "force_date_time": true,
+  "allow_password_autofill": true,
+  "allow_password_proximity": true,
+  "allow_password_sharing": true,
+  "allow_manade_write_unmanaged_contact": true,
+  "allow_unmanaged_read_managed_contact": true,
+  "allow_usb_restriction_mode": true,
+  "bluetooth_setting": 2
+}]
+
+manageEngine.WindowsPasscodePolicy
+[{
+  "max_inactivity_time_devlock": 30,
+  "alphanumeric_pwd_required": 0,
+  "min_pwd_length": 6,
+  "min_pwd_complex_char": 2,
+  "pwd_expiration": 90,
+  "pwd_history": 5,
+  "max_pwd_failed_attempts": 10
+}]
+
+manageEngine.WindowsRestrictionsPolicy
+[{
+  "enforce_device_encription": false,
+  "disable_sd_card": false,
+  "allow_use_of_camera": true,
+  "allow_screen_capture": true,
+  "allow_storage_card": true,
+  "allow_telemetry": 2,
+  "allow_store": true,
+  "allow_usb": true,
+  "ms_feedback_notif": 0,
+  "allow_date_time": true,
+  "allow_edit_device_name": true,
+  "allow_internet_sharing": true,
+  "allow_vpn_setting": true,
+  "allow_vpn_over_data": "userConfig",
+  "allow_vpn_over_data_roaming": "userConfig",
+  "allow_cellular_data": 1,
+  "allow_data_roaming": true,
+  "allow_wifi": true,
+  "allow_manual_wifi_config": true,
+  "allow_auto_wifi_hotspot": true,
+  "allow_copy_paste": true,
+  "allow_location": true,
+  "allow_microsoft_account": true,
+  "allow_adding_non_microsoft": true,
+  "allow_root_certificate_install": true,
+  "allow_developer_unlock_new": "userConfig",
+  "allow_user_reset_phone": true,
+  "allow_action_notification": true,
+  "allow_toast": true,
+  "allow_fips_policy": false,
+  "allow_add_prov_package": true,
+  "allow_remove_prov_package": true,
+  "enable_anti_theft_mode": 1,
+  "allow_cortana": true,
+  "allow_voice_recording": true,
+  "allow_save_as_office_files": true,
+  "allow_sharing_office_files": true,
+  "allow_sync_my_settings": true,
+  "allow_storing_image_search": true,
+  "safe_search_permissions": -1,
+  "allow_search_use_location": true,
+  "allow_all_trusted_apps": 65535,
+  "limit_appinstall_to_sys_vol": false,
+  "limit_appdata_to_sys_vol": false,
+  "allow_appstore_auto_update": -999,
+  "require_private_store_only": false,
+  "allow_browser": true,
+  "browser_allow_cookies": "userConfig",
+  "browser_allow_inprivate": true,
+  "browser_allow_passmgr": "userConfig",
+  "browser_allow_searchsuggest": "userConfig",
+  "browser_allow_smartscreen": "userConfig",
+  "browser_smartscreen_prompt": "userConfig",
+  "browser_smartscreen_files": "userConfig",
+  "browser_allow_donot_track": "userConfig",
+  "browser_allow_address_bar_dropdown": true,
+  "browser_allow_extensions": true,
+  "browser_clear_browsing_data_exit": -999,
+  "browser_about_flags_access": true,
+  "browser_allow_flash": -999,
+  "browser_run_flash_automatically": false,
+  "browser_allow_autofill": -999,
+  "browser_allow_popups": -999,
+  "browser_allow_developer_tools": true,
+  "allow_nfc": true,
+  "allow_bluetooth": true,
+  "allow_bluetooth_discoverable": true,
+  "allow_bluetooth_prepairing": true,
+  "allow_bluetooth_advertising": true
+}]
+
